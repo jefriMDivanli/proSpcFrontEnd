@@ -3,11 +3,11 @@ COMPANY DIRECTORY WEB-APPLICATION
 
 APP OVERVIEW
 
-The simple application is created to add and delete data of a company and its offices. The application front-end was coded with React and Redux, while the animation was done with CSS. The front-end is conencted to the API with Axios, and the API was coded with Express.js and created to be paired specifically with MySQL database.
+- The simple application is created to add and delete data of a company and its offices. The application front-end was coded with React and Redux, while the animation was done with CSS. The front-end is conencted to the API with Axios, and the API was coded with Express.js and created to be paired specifically with MySQL database.
 
 CONFIGURATION INSTRUCTION
 
-The simple app should be good on most popular web browsers such as Chrome, Firefox and Safari. 
+- The simple app should be good on most popular web browsers such as Chrome, Firefox and Safari. 
 
 INSTALLATION INSTRUCTION
 
@@ -22,7 +22,7 @@ INSTALLATION INSTRUCTION
 
   5. It is important to keep both Terminals/CLs running.
 
-###SETTING UP MySQL DATABASE
+SETTING UP MySQL DATABASE
 
 - It is important that the column naming on the MySQL database matches perfectly, with the one in both "prospace" and "prospaceBE" folder.
 
