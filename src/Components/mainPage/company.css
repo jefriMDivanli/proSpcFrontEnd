@@ -1,0 +1,92 @@
+.dataCard {
+    height: 230px;
+    width: 500px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    border: 2px solid #808080;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.dataCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px grey;
+    transition: ease-in-out .5s;
+}
+
+.dataCard:active {
+    transform: translateY(-1); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    transition: .1s;
+}
+
+.dataCard-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.dataCard-header p {
+    margin: 10px;
+}
+
+.companyName {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.deleteBtn {
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    color: rgb(228, 4, 4);
+    transition: 1s;
+}
+
+.dataCard-data {
+    text-align: left;
+    margin: 2px;
+}
+
+.dataCard-data h4 {
+    padding: 0;
+    margin: 15px 0 0 15px;
+}
+
+.dataCard-data p {
+    margin: 3px 15px;
+}
+
+.dataCardRendering {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+.renderCompanyList {
+    animation: moveInBottom 2s;
+}
+
+@keyframes moveInBottom {
+     0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

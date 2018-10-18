@@ -1,0 +1,135 @@
+/* WHOLE MAIN PAGE */
+.mainPage {
+    height: 1500px;
+    width: 100%;
+    margin: 10px;
+}
+
+/* MAIN FORM SECTION */
+.separator {
+    margin: auto;
+    height: 450px;
+    width: 1.5px;
+    background-color: grey;
+}
+
+.createInput {
+    width: 300px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.createInputA {
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.createInputB {
+    text-align: center;
+    width: 200px;
+    height: 20px;
+}
+
+.createInputC, .createInputD {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+}
+
+.createInputC {
+    margin-right: 3px;
+}
+
+.form p, .form h2 {
+    text-align: left;
+}
+
+.form h2 {
+    margin-bottom: 10px;
+}
+
+.form input:focus {
+    outline: 0;
+    border: 3px solid greenyellow;
+}
+
+.createCountryCode {
+    width: 50px;
+}
+
+/* SUBMIT BUTTON & COMPANY DROPDOWN */
+.button {
+    margin: auto;
+}
+
+.btn, .dropdown {
+    margin: 20px;
+    margin-top: 40px;
+    padding: 2px;
+    width: 300px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.dropdown {
+    height: 30px;
+    margin: 0;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+.dropdown:focus {
+    outline: 0;
+    margin: auto; 
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px green;
+    border: 3px solid greenyellow;
+}
+
+.btn:active {
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+/* WITHIN RENDER */
+
+.createForm {
+    display: flex;
+    flex-direction: row;
+    width:  100%;
+    height: 500px;
+    border-bottom: 1px solid grey;
+}
+
+.companyForm, .officeForm {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: black;
+}
+
