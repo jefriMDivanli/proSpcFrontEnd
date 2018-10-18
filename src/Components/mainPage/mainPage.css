@@ -133,3 +133,29 @@
     color: black;
 }
 
+@media only screen and (max-width:870px) {
+   .createForm {
+       display:flex;
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+       justify-content: center;
+       overflow: scroll;
+   }
+
+   .form {
+       width: 100%;
+   }
+
+   .separator {
+       height: 2px;
+       width: 90%;
+       background-color: grey;
+   }
+
+   .doubleInput{
+       display: flex;
+   }
+
+}
+

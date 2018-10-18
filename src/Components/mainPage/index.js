@@ -22,8 +22,8 @@ class MainPage extends Component {
         console.log(this.props.companies)
     }
 
-    componentWillReceiveProps(x) {
-        console.log(x);
+    componentWillReceiveProps(data) {
+        console.log(data);
     }
 
     //COMPANY SUBMISSION BUTTON
@@ -149,11 +149,11 @@ class MainPage extends Component {
                     </div>
 
                     <p>Office Start Date:</p>
-                    <input ref='startDate' className='createInput' type='text' placeolder='MUST BE FILLED'/>
+                    <input ref='startDate' className='createInput' type='date' placeolder='MUST BE FILLED'/>
 
-                    <p placeholder='MUST BE FILLED'>Company:</p>
-                    <select ref='officeCompany' className='dropdown'>
-                        <option value='selected'> Select Company </option>
+                    <p>Company:</p>
+                    <select ref='officeCompany' className='dropdown' style={{ border: "1 px solid red"}}>
+                        <option> Select Company </option>
                         {this.renderCompanyOption()}
                     </select>
 
@@ -183,7 +183,7 @@ class MainPage extends Component {
 
                 <p>Company:</p>
                 <select ref='officeCompany' className='dropdown'>
-                    <option value='selected'> Select Company </option>
+                    <option value=''> Select Company </option>
                     {this.renderCompanyOption()}
                 </select>
                

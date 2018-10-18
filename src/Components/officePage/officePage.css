@@ -82,8 +82,8 @@
 
 .officeList {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-column-gap: 5px;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 15px;
     grid-row-gap: 25px;
     justify-items: center;
 }
@@ -104,3 +104,67 @@
         transform: translateX(0);
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .officeList {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        justify-content: center;
+
+    }
+
+    .dataCardOffice {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .dataCardOffice-header, .dataCardOffice-data.company, .home-btn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .dataCardOffice-data.company {
+        margin-top: 20px;
+    }
+
+    .officeList {
+        grid-template-columns: 60%;
+
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .home-btn {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .btn {
+        width: 80%;
+        margin: 20px 0 20px -10px;
+    }
+
+    .officePage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .officeList {
+        grid-template-columns: 90%;
+
+    }
+}
+
