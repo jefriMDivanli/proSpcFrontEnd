@@ -1,13 +1,16 @@
-#COMPANY DIRECTORY WEB-APPLICATION
+COMPANY DIRECTORY WEB-APPLICATION
 
 
-###APP OVERVIEW
+APP OVERVIEW
+
 The simple application is created to add and delete data of a company and its offices. The application front-end was coded with React and Redux, while the animation was done with CSS. The front-end is conencted to the API with Axios, and the API was coded with Express.js and created to be paired specifically with MySQL database.
 
-###CONFIGURATION INSTRUCTION
-The simple app should be good to be run on most popular web browsers such as Chrome, Firefox and Safari. 
+CONFIGURATION INSTRUCTION
 
-###INSTALLATION INSTRUCTION
+The simple app should be good on most popular web browsers such as Chrome, Firefox and Safari. 
+
+INSTALLATION INSTRUCTION
+
 - Install all projects dependencies via your terminal (for Team macOS)/command line (for team Windows):
   1. Install npm. You can follow the step here: "https://www.npmjs.com/get-npm".
 
@@ -61,7 +64,7 @@ const conn = mysql.createConnection({
   3. If the database naming is et up per list above, the application should run smoothly.
 
 
-###USING THE APPLICATION
+USING THE APPLICATION
 
 1. The application can be use to register a company, and render it to the "Company" section of the main page. 
 
